@@ -34,17 +34,18 @@
             <div class="col-md-4">
                 <img src="./images/elex.png" alt="Logo Elex Lab" class="img-responsive">
                 <hr>
-                <form action="">
+                <form>
                     <div class="form-group">
                         <input type="text" id="tim-user" class="form-control" placeholder="Nhập tên...">
                     </div>
                     <div class="form-group">
-                        <button class="btn btn-danger">Tìm</button>
+                        <button class="btn btn-danger" onclick="getData()" type="button">Tìm</button>
                     </div>
                 </form>
             </div>
             <div class="col-md-4">
-                <p>Kết quả hiển thị</p>
+                <img id="img">
+                <p id="ket-qua-tim"></p>
             </div>
         </div>
     </div>
